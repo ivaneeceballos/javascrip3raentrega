@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego de Piedra, Papel o Tijera</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="jugadores">
+    <div id="jugador1" class="jugador">Jugador 1</div>
+    <div id="jugador2" class="jugador">Jugador 2</div>
+  </div>
+  <div id="opciones" class="opciones oculto">
+    <button id="piedra">Piedra</button>
+    <button id="papel">Papel</button>
+    <button id="tijera">Tijera</button>
+  </div>
+  <div id="mensaje" class="mensaje"></div>
+  <button id="reiniciar" onclick="reiniciarJuego()" disabled>Reiniciar Juego</button>
+  <script src="script.js"></script>
+</body>
+</html>
